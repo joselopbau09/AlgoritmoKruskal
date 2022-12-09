@@ -1,4 +1,4 @@
-from Graph import Graph
+from classes.Graph import Graph
 
 def lecturaArchivo(nombre):
     listaLineas = []
