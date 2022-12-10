@@ -1,4 +1,4 @@
-from classes.Graph import Graph
+""" from classes.Graph import Graph
 
 def lecturaArchivo(nombre):
     listaLineas = []
@@ -25,9 +25,11 @@ def unirVertices(listaCadenas, grafica):
         listaAristas[1] = eliminarSalto
         graph.addEdge(listaAristas[0], listaAristas[1], listaAristas[2])
     return graph  
-
+ """
 def main():
-    grafica = lecturaArchivo('graph.txt')
-    
+    #grafica = lecturaArchivo('graph.txt')
+    x = {21,1,4}
+    y = {21,12,3}
+    print(x.isdisjoint(y))
 main()    
 
